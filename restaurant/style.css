@@ -257,6 +257,26 @@
     /* 48.16px */
 }
 
+.feauture1txt,
+.feauture2txt,
+.feauture3txt {
+
+    /* Headline 5 Bold */
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 42px */
+
+    background: linear-gradient(150deg, #FB3C00 0%, #FFB800 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
 .fic1,
 .fic2,
 .fic3 {
@@ -378,7 +398,7 @@
 
     /* Headline 4 Bold */
     font-family: Source Sans Pro;
-    font-size: 43px;    
+    font-size: 43px;
     font-style: normal;
     font-weight: 700;
     line-height: 112%;
@@ -500,8 +520,6 @@
 }
 
 
-
-
 .ordernowbtn1,
 .ordernowbtn2,
 .ordernowbtn3,
@@ -535,9 +553,30 @@ li {
 }
 
 .footer {
+    padding-top: 100px;
     background: #090D12;
 }
 
 ul {
     list-style-type: none;
+}
+
+
+
+.horizontal1 {
+    width: 600px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: white;
+
+    margin: 100px auto 50px auto;
+}
+
+.horizontal2 {
+
+    margin: 0px auto 100px auto;
+    width: 600px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: white;
 }
